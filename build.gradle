@@ -27,12 +27,9 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-data-redis')
-	compile('org.springframework.boot:spring-boot-starter-jdbc')
 	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 	compile('org.springframework.boot:spring-boot-starter-web')
-	compile('org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.2')
 	compile('org.springframework.session:spring-session-data-redis')
-	compile('org.springframework.session:spring-session-jdbc')
 	runtime('mysql:mysql-connector-java')
 	compileOnly('org.projectlombok:lombok')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
